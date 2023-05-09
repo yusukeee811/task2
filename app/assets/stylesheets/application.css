@@ -45,8 +45,12 @@
     display: block;
  }
  
+ ul{
+     margin: 33px;
+ }
+ 
  body{
-    color: #333333;
+    color: #333;
     margin: 33px;
     line-height: 18px;
     font-size: 13px;
@@ -59,4 +63,32 @@
 
 .actions{
    margin-bottom: 10px;
+}
+
+.field_with_errors{
+    padding: 2px;
+    background-color: red;
+    display: table;
+}
+
+#error_explanation{
+    width: 450px;
+    padding: 7px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    border: 2px solid red;
+    background-color: #f0f0f0;
+}
+
+#error_explanation h2{
+    padding: 5px 5px 5px 15px;
+    margin: -7px;
+    margin-bottom: 0;
+    background-color: #c00;
+    color: #fff;
+    font-size: 12px;
+}
+
+#notice{
+    color: green;
 }

@@ -13,42 +13,42 @@
  *= require_tree .
  *= require_self
  */
- 
+
  *{
    margin: 0;
    padding: 0;
    box-sizing: border-box;
  }
- 
+
  h1{
     margin: 0.67em 0px;
     font-weight: bold;
  }
- 
+
  h2{
     margin: 0.83em 0px;
  }
- 
+
  p{
-   margin: 33px; 
+   margin: 33px;
  }
- 
+
  a{
     color: #666666;
  }
- 
+
  td{
     padding: 0px 5px 7px;
  }
- 
+
  label{
     display: block;
  }
- 
+
  ul{
      margin: 33px;
  }
- 
+
  body{
     color: #333;
     margin: 33px;
